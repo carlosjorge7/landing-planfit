@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planfit - Planifica tus entrenamientos</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+    />
+
+    <style>
+      /* Estilos para la animación */
+      .feature {
+        opacity: 0; /* Inicialmente, oculta los elementos */
+        animation: fadeIn 1s ease forwards;
+      }
+
+      /* Agrega un retraso (delay) para cada elemento */
+      .feature:nth-child(1) {
+        animation-delay: 0s;
+      }
+
+      .feature:nth-child(2) {
+        animation-delay: 1s; /* 1 segundo de retraso */
+      }
+
+      .feature:nth-child(3) {
+        animation-delay: 2s; /* 2 segundos de retraso */
+      }
+
+      /* Define la animación de desvanecimiento */
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav><h3>Planfit</h3></nav>
+    </header>
+
+    <div class="feature">
+      <h2>Bienvenido/a!</h2>
+      <p>
+        <strong>Planfit</strong> es una aplicación para personalizar tus
+        entrenamientos. Entrenes en casa, gym o donde sea. Es fácil, intuitiva y
+        se centra en lo importante: la gestión de tus rutinas.
+      </p>
+    </div>
+
+    <div class="feature">
+      <p>
+        ¿Usas un block de notas para guardar tus entrenamientos? ¿Estás
+        cansado/a de las aplicaciones super pesadas de entrenamientos y quieres
+        ir al grano con tus rutinas? Esta es tu app!
+      </p>
+    </div>
+
+    <section id="entrenamientos">
+      <div class="feature">
+        <h2><i class="ion-arrow-graph-up-right"></i> Entrenos</h2>
+        <p>
+          Crea y personaliza tus rutinas de entrenamiento para alcanzar tus
+          objetivos. Hay varios tipos: fuerza, hipertrofia, resistencia y muchos
+          más!
+        </p>
+      </div>
+
+      <div class="feature">
+        <h2><i class="ion-android-done"></i> Ejercicios</h2>
+        <p>
+          Hay un montón de ejercicios de todos los grupos musculares. También
+          puedes crear los tuyos propios.
+        </p>
+      </div>
+
+      <div class="feature">
+        <h2><i class="ion-connection-bars"></i> Progreso</h2>
+        <p>
+          La aplicacion cuenta con balances para que puedas consultar el
+          progreso anual y mensual de tus rutinas.
+        </p>
+      </div>
+    </section>
+    <section id="plan">
+      <div class="feature">
+        <h2><i class="ion-android-calendar"></i> Plan</h2>
+        <p>
+          Te lo ponemos fácil. La aplicación cuenta con un calendario para que
+          asignes a un dia concreto de la semana un entreno. Diseña planes de
+          entrenamiento efectivos y establece metas realistas.
+        </p>
+      </div>
+    </section>
+    <section id="dietas">
+      <div class="feature">
+        <h2><i class="ion-android-restaurant"></i> Dietas</h2>
+        <p>
+          Podrás dar de alta dietas, asociarle nutrientes y vincularla con un
+          entrenamiento.
+        </p>
+      </div>
+    </section>
+    <section id="links">
+      <div class="cta-button">
+        <a href="https://planfit-vmkk.onrender.com" target="_blank">
+          <i class="ion-earth"></i> Accede a la aplicación web
+        </a>
+      </div>
+      <div class="cta-button">
+        <a
+          href="https://play.google.com/store/apps/details?id=com.tuapp.planfit"
+          target="_blank"
+        >
+          <i class="ion-earth"></i> Accede a la aplicación web
+        </a>
+      </div>
+    </section>
+  </body>
+  <br /><br />
+  <footer>
+    <p>&copy; 2023 Planfit</p>
+  </footer>
+</html>
