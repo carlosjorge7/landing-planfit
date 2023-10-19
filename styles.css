@@ -38,16 +38,6 @@ h1 {
   font-size: 36px;
 }
 
-.cta-button {
-  display: inline-block;
-  background: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 20px;
-}
-
 /* Estilos de las secciones de características */
 .feature {
   text-align: center;
@@ -69,7 +59,7 @@ h2 {
 
 .cta-button a {
   display: inline-block;
-  background: #007bff;
+  background: #5260ff;
   color: #fff;
   padding: 15px 30px;
   text-decoration: none;
